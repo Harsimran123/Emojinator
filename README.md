@@ -5,13 +5,13 @@ Emojis are ideograms and smileys used in electronic messages and web pages. Emoj
 # Functionalities
 Filters to detect hand.
 CNN for training the model.
-Python Implementation
+
+# Python Implementation
 Network Used- Convolutional Neural Network
 If you face any problem, kindly raise an issue
 
 # Procedure
-First, you have to create a gesture database. For that, run CreateGest.py. Enter the gesture name and you will get 2 frames displayed. Look at the contour frame and adjust your hand to make sure that you capture the features of your hand. Press 'c' for capturing the images. It will take 1200 images of one gesture. Try moving your hand a little within the frame to make sure that your model doesn't overfit at the time of training.
-Repeat this for all the features you want.
-Run CreateCSV.py for converting the images to a CSV file
-If you want to train the model, run 'TrainEmojinator.py'
-Finally, run Emojinator.py for testing your model via webcam.
+
+1. Run CreateCSV.py for converting the images to a CSV file
+2. If you want to train the model, run 'TrainEmojinator.py'
+3. Finally, run Emojinator.py for testing your model via webcam.
